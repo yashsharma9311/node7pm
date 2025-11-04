@@ -7,7 +7,7 @@ const empSave = async (req, res) => {
         designation: designation,
         salary: salary
     })
-    res.send("Data Succesfuuly Save!")
+    res.send("Data Succesfully Save!")
 }
 const empDisplay = async (req, res) => {
     const employee = await EmpModel.find();
